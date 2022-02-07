@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: AkzidenzGrotesk;
+}
+
+.container .row{
+    margin:20px;
+}
+.container .navbar-inverse{
+    background:rgb(243, 234, 234);
+    color:black;
+    border: none;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background: transparent;
+}
+.container .navbar-inverse .navbar-brand{
+    color:black;
+    font-size: 30px;
+}
+.container .navbar-inverse .navbar-brand:hover{
+    color:orangered;
+}
+.container .navbar-inverse .navbar-nav a{
+    padding:5px 5px;
+    color: black;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container .navbar-inverse .navbar-nav a:hover{
+    color:orangered;
+}
+.container .navbar-inverse .navbar-right a{
+    color:black;
+    font-weight: normal;
+
+}
+.container .navbar-inverse .navbar-right  .glyphicon{
+    font-size: 25px;
+    padding:0 5px;
+}
+
+.header .main{
+    text-align: right;
+}
+.header .main h1{
+    font-size: 130px;
+}
+.header .main h1 small{
+    font-size:20px ;
+    padding-bottom: 30px;
+}
+.header .main h3{
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-size: 45px;
+}
+.header .main .para1,.para2{
+    font-size: 15px;
+    line-height: 20px;
+}
+.header .rightimage .imgblock{
+    text-align: left;
+    display: flex;
+    background-image: url(../images/paintgirl2.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+ .header .rightimage h1{
+    font-size: 130px;
+    margin-top: 20px 5px;
+    position: absolute;
+    color: rgba(243, 233, 233, 0.952);
+    font-style: normal;
+}
+
+.row #hovereffect .left ,.right :hover{
+    color:black;
+}
+
+
+
+
+
+
+
+
+.row .btnblock{
+    text-align: center;
+    margin:40px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+ .row .btnblock .para3{
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-weight: bold;
+    font: bold;
+}
+.row .btnblock .btn{
+    width: 300px;
+    padding:5px ;
+    background: rgb(19, 19, 87);
+    color:white;
+    margin:10px 40px;
+    position: relative;
+}
+
+.container .popup{
+    width: 800px;
+    height: auto;
+    max-width: 80%;
+    display:none; 
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    background: rgb(231, 229, 229);
+    top:90%;
+   position: absolute;
+   font-family: AkzidenzGrotesk;
+    
+}
+.popup  .header1 p{
+    text-align: center;
+    align-content: center;
+    margin:10px;
+    padding-left: 6px;
+    
+}
+.popup  .header1 .close{
+    display: flex;
+    float: right;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    background: black;
+}
+
+.popup .popupcontent{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+}
+.popup .popupcontent h1{
+    font-size: 40px;
+    color:rgb(19, 19, 87);
+}
+.popup .popupcontent .para1{
+    letter-spacing: 2px;
+    padding: 5px;
+}
+.popup .popupcontent p{
+    color:rgb(19, 19, 87);
+}
+.popup .popupcontent .input{
+    padding:10px;
+    width: 300px;
+    overflow: hidden;
+    border: black  1px solid;
+}
+.popup .popupcontent button{
+    padding:10px;
+    margin-left: 20px;
+    width: 200px;
+    background-color:rgb(19, 19, 87);
+    color:white;
+}
+.popup .popupcontent .para2{
+    padding: 10px;
+    margin:10px 10px;
+    overflow: hidden;
+    position: relative;
+}
+.popup .popupcontent .checkbox1{
+   margin-right: 10px;
+}
+.popup .popupcontent a{
+    padding:10px;
+}
+
+
+
+.row .loveit{
+    text-align:center;
+    
+}
+.row .loveit .heading1{
+  text-align: center;
+  font-size: 70px;
+  transition: 0.3s;
+}
+.row .loveit .heading1:hover{
+    color:orangered;
+    transform: scaleZ(1.2);
+}
+.row .loveit a{
+    text-decoration: none;
+    text-decoration: underline; 
+    color: rgb(19, 19, 87);   
+    font: bold;
+    font-weight: bold;
+    font-size: 15px;
+}
+.row .left{
+
+    margin: 30px;
+    text-align: right;
+    margin-right: 10px;
+}
+.row .right{
+    text-align: left;
+    margin: 30px;
+}
+.row .left h1{
+    color: rgb(141, 135, 135);
+    font-size:50px;
+    transition: 0.3s;
+}
+.row .left h1:hover{
+    color:black;
+    transform:scaleZ(4);
+}
+.row .left p{
+    font:bold;
+    font-weight: bold;
+}
+.right .offers ul li{
+    padding:5px;
+    list-style-type: square;
+    color: rgb(141, 135, 135);
+}
+.right .offers ul li:hover{
+    color: black;
+}
+
+.row .endcontent{
+    text-align: center;
+    align-content: center;
+    background: rgb(19, 19, 87);
+    color: white;
+}
+.row .endcontent h1{
+    padding: 20px;
+}
+.row .endcontent p  span{
+    font-weight: bold;
+}
+.row .endcontent .lpara{
+    padding: 20px;
+}
+.container  .footer{
+    align-content: center;
+    background: rgb(19, 19, 87);
+    margin: 0px 33px;
+    }
+    .container  .footer h3{
+        text-decoration: underline;
+        color:black;
+    }
+.container .footer .footerheader .navbar-inverse{
+    background:none;
+    color:black;
+    border: none;
+}
+.container .footer .footerheader .navbar-inverse .navbar-nav a{
+    padding:5px 5px;
+    color: white;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container .footer .footerheader .navbar-inverse .navbar-nav .glyphicon-comment{
+    padding:0 10px;
+}
+.container .footer .footerheader .navbar-inverse  .navbar-right .glyphicon-map-marker {
+    padding:0px 2px;
+    font-size: 15px;
+}
+
+.container .footer .footercontent{
+    width: 100%;
+    align-content: center;
+    background: rgb(19, 19, 87);
+}
+.container .footer .footercontent  li{
+    list-style-type: none;
+    padding: 7px;
+    text-align: justify;
+}
+.container .footer .footercontent  li a{
+    text-decoration: none;
+    color:black;
+}
+.container .footer .footercontent .socialicons{
+    padding: 10px 10px;
+}
+.container .footer .footercontent .socialicons .glyphicon-map-marker{
+    padding: 10px 10px;
+}
+.container .footer .footercontent .socialicons i{
+    padding: 10px 10px;
+    font-size: 30px;
+}
+.container .footer .footercontent .socialicons i:hover{
+   color: orangered;
+}
+
+.container .footer .footerend{
+    background: rgb(5, 5, 65);
+}
+
+.container .footer .footerend .navbar-inverse{
+    background: rgb(5, 5, 65);
+    margin:20px;
+    color: white;
+}
+.container .footer .footerend .navbar-inverse .navbar-right p{
+    text-align: center;
+    padding:15px;
+    
+}
+.container .footer .footerend .navbar-inverse a{
+    color: white;
+}
